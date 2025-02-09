@@ -15,19 +15,19 @@ Our chart:
 ![Garmin heart rate data](https://github.com/user-attachments/assets/98f32de6-485a-4c51-8542-b75efaa433a2)
 
 
-Features
-Import Garmin activity files (GPX, FIT, TCX formats)
-Data cleaning and preprocessing
-Analysis of key fitness metrics such as distance, pace, speed, heart rate, elevation gain, etc.
-Visualization of workout trends over time
-Privacy considerations: All private data has been removed from this repository
-Requirements
-Python 3.x
+## Features
+- Import Garmin activity for daily historic heart rate data
+- Data cleaning and preprocessing
+- Analysis of key fitness metrics using granualar heart rate which is hard to do using most visualization tools
+- Privacy considerations: All private data has been removed from this repository
+- Split the code into 3 separate sections to use whichever part needed at different stages
 
-Required Python packages:
-pandas
-numpy
-matplotlib
-fitparse
-gpxpy
-others (see requirements.txt)
+## Requirements
+- Python 3.x
+
+### Required Python packages:
+- pandas
+- numpy
+- matplotlib
+- gpxpy
+
